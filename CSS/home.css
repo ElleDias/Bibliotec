@@ -73,26 +73,26 @@ nav a:hover {
     /* /font-style: italic;/ */
     margin-left: 10px;
     margin-bottom: 10px;
- 
+
     color: #00d3d4;
 }
 
 /* /fim do menu/ */
 
 /* banner */
-#banner{
+#banner {
     background-color: #4969DF;
     width: 100%;
     height: 390px;
 }
 
-.banner-flex{
+.banner-flex {
     display: flex;
     /* border: 3px solid black; */
     justify-content: space-between;
 }
 
-.banner-info{
+.banner-info {
     color: white;
     width: 450px;
     height: 350px;
@@ -104,11 +104,11 @@ nav a:hover {
 }
 
 
-#banner img{
+#banner img {
     height: 388px;
 }
 
-button{
+button {
     margin-right: 68%;
     margin-top: 6%;
     height: 7%;
@@ -120,12 +120,12 @@ button{
     text-transform: uppercase;
 }
 
-div.banner-info p{
+div.banner-info p {
     margin-left: 5%;
     margin-top: 5%;
 }
 
-#totalmente-gratis{
+#totalmente-gratis {
     background-color: #3691d8;
 }
 
@@ -140,23 +140,24 @@ div.banner-info p{
 }
 
 
-.texto-gratis{
+.texto-gratis {
 
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
     width: 450px;
 }
-.texto-gratis h2{
 
-   color: white;
-   font-size: 30px;
+.texto-gratis h2 {
+
+    color: white;
+    font-size: 30px;
 }
 
 .texto-gratis p {
 
     color: white;
-   font-size: 20px;
+    font-size: 20px;
 }
 
 /* section porque usar bibliotec*/
@@ -186,7 +187,7 @@ div.banner-info p{
     margin-top: -30px;
 }
 
-div.banner-info h2{
+div.banner-info h2 {
     font-size: 20px;
     width: 62%;
     margin-top: -30px;
@@ -229,7 +230,7 @@ div.banner-info h2{
 
 
 
-    }
+}
 
 .article-circulo {
     display: flex;
@@ -241,15 +242,16 @@ div.banner-info h2{
     flex-wrap: wrap;
     align-items: center;
     display: flex
-    
 }
-.article1 p{
+
+.article1 p {
     margin-left: 3px;
     margin-bottom: 90px;
 
 }
+
 /* /top 4 livros recomendados/ */
-  
+
 .article-dois {
     display: flex;
     justify-content: space-between;
@@ -268,7 +270,7 @@ div.banner-info h2{
     height: 120px;
     width: 120px;
     margin-top: -60px;
-    border-radius: 50% ;
+    border-radius: 50%;
     border: 5px solid #2fd6cb;
     background-color: white;
 }
@@ -315,7 +317,7 @@ footer h4 {
 }
 
 .footer-flex article {
-    
+
     display: flex;
     /* text-align: center; */
     /* border: 2px solid black; */

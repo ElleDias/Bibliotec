@@ -1,39 +1,46 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login do Bibliotec</title>
-    <link rel="stylesheet" href="./CSS/login.css">
+    <title>login-bibliotec</title>
+    <link rel="stylesheet" href="./css/login.css">
+    <style>
+        body{
+            background-size: 100%;
+            background-image: url("Imagens/login-bk-desktop.png");
+        }
+    </style>
 </head>
+
 <body>
     <header>
         <div class="layout-grid header-flex">
-            <img src="./Imagens/logo-desktop.svg" alt="Livro aberto com o texto Bibliotec ao seu lado">
-
+            <img src="Imagens/logo-desktop.svg" alt="Logo da marca da BiblioTec">
             <nav>
-                <a href="#">QUEM SOMOS</a>
-                <a href="#">NOSSO ACERVO</a>
-                <a href="#">LOGIN</a>
+                <a href="#">Quem somos</a>
+                <a href="#">Nosso acervo</a>
+                <a href="login.html">Login</a>
             </nav>
         </div>
     </header>
-    <!-- INICIO -->
-     <main>
- <section class="bodi ">
-    <div class="caixa1 layout-grid">
 
 
-    </div>
-</section>
+    <main class="layout-grid login-flex">
+        
+            <form class="login">
+            <h1>Entre na biblio Tec</h1>
+            <label for="email">E-mail</label>
+            <input type="email" id="email" placeholder="email@gmail.com">
+            <label for="senha">Senha</label>
+            <input type="password" id="senha" placeholder="*************">
+            <a href="https://youtu.be/o3-lzz60iTQ?list=RDMMo3-lzz60iTQ">Esqueceu a senha </a>
+            <button > ENTRAR</button>
 
+        </form>
+        
 
-
-
-
-
-     </main>
-     <footer></footer>
-     <!-- FIM -->
+    </main>
+    
 </body>
 </html>
