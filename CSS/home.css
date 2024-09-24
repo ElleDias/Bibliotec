@@ -395,3 +395,115 @@ footer hr {
     display: flex;
     align-items: center;
 } */
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 767px) {
+    /* navbar */
+
+    .menu {
+        position: fixed;
+        top: 0;
+        left: -80%;
+
+        width: 80%;
+        height: 100%;
+        z-index: 10;
+
+        background-color: red;
+    }
+
+    .mostra-menu{
+        left: 0;
+    }
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    .totalmente-flex {
+
+        width: 100px;
+        height: 400px;
+        align-items: center;
+
+    }
+
+    .article1 {
+        margin-bottom: 100px;
+
+    }
+
+    body {
+        background-color: #f8f8f8;
+        font-family: "Montserrat", sans-serif;
+    }
+
+    .layout-grid {
+        width: 100%;
+        /* 100% da largura do dispositivo */
+        max-width: 768px;
+        /* Máxima largura para telas maiores */
+        margin: 0 auto;
+        /* Centralizar */
+        padding: 0 15px;
+        /* Espacamento lateral */
+    }
+
+    .texto-gratis {
+
+        align-items: center;
+    }
+
+    .banner-flex {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    div.banner-info {
+        color: white;
+        width: 300px;
+        /* Largura reduzida */
+        /* height: 200px; Altura reduzida */
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #banner img {
+        display: none;
+        height: 388px;
+    }
+
+    .totalmente-flex img {
+        display: none;
+        width: 450px;
+    }
+
+    button {
+        font-size: 10px;
+        height: 23px;
+        width: 100px;
+
+    }
+
+    .livros-flex {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .bibliotec-flex {
+        flex-direction: column;
+        align-items: center;
+    }
+}
